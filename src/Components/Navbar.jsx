@@ -6,7 +6,7 @@ const Navbar = () => {
   const toggleNav = () => setIsNavOpen(!isNavOpen);
 
   return (
-    <header className="bg-[#013237] fixed top-0 w-full z-10">
+    <header className="bg-[#01323741] fixed top-0 w-full z-10">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
@@ -76,7 +76,7 @@ const Navbar = () => {
 
       {isNavOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#013237] rounded-b-2xl">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#01323760] rounded-b-2xl">
             {["Home", "About", "Services", "Gallery", "Contact"].map((item) => (
               <a
                 key={item}
