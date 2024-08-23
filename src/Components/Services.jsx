@@ -1,4 +1,5 @@
 import { useState } from "react";
+import CarouselComponent from "./Carousel";
 
 const ChevronDownIcon = () => (
   <svg
@@ -94,13 +95,25 @@ const Services = () => {
                   placeholder="Prices"
                 />
               </div>
-              <button
-                className="bg-[#013237] hover:bg-[#008080] text-white font-bold py-3 px-4 rounded-full transition-colors flex items-center justify-center"
-              >
+              <button className="bg-[#013237] hover:bg-[#008080] text-white font-bold py-3 px-4 rounded-full transition-colors flex items-center justify-center">
                 <SearchIcon />
                 <span className="ml-2">Search</span>
               </button>
             </div>
+          </div>
+          <div className="mt-16">
+            <div>
+              <h1 className="text-[2.5rem] font-bold text-center text-teal-700 mb-4">
+                Most Viewed
+              </h1>
+              <p className="text-gray-400">
+                Discover a range of vacation worldwide. Book securely and get
+                exert customer support for a stress-free stay
+              </p>
+            </div>
+          </div>
+          <div className="mt-16 mb-20">
+            <CarouselComponent />
           </div>
         </div>
 
