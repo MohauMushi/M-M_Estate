@@ -70,7 +70,7 @@ const Gallery = () => {
     <>
       <section
         id="gallery"
-        className="absolute min-h-screen w-full flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8"
+        className="relative min-h-screen w-full flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8"
       >
         <div className="absolute inset-0 bg-cover bg-center z-0">
           <div className="relative mb-2 -mt-10 flex items-center justify-center">
