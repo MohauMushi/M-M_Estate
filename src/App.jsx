@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
-import Services from "./Components/Services";
+import Gallery from "./Components/Gallery";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Services />
+      <Gallery />
     </>
   );
 }

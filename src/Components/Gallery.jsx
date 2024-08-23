@@ -53,7 +53,7 @@ const DropdownSelect = ({ value, onChange, options, placeholder }) => (
   </div>
 );
 
-const Services = () => {
+const Gallery = () => {
   const [cityStreet, setCityStreet] = useState("");
   const [rentType, setRentType] = useState("");
   const [price, setPrice] = useState("");
@@ -69,7 +69,7 @@ const Services = () => {
   return (
     <>
       <section
-        id="services"
+        id="gallery"
         className="absolute min-h-screen w-full flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8"
       >
         <div className="absolute inset-0 bg-cover bg-center z-0">
@@ -130,4 +130,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Gallery;
