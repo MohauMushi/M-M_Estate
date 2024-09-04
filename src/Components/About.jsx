@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="flex flex-col md:flex-row w-full max-w-6xl">
         <div className="w-full md:w-1/2 p-4 mb-8 md:mb-0">
           <img
-            src="../../public/images/rendering-wooden-house.jpg"
+            src="../../images/rendering-wooden-house.jpg"
             alt="rendering wooden house"
             className="w-full h-auto object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow"
           />
