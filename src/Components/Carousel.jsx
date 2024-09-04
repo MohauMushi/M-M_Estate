@@ -5,7 +5,7 @@ import bath from "../../public/svg/bath.svg";
 const properties = [
   {
     id: 1,
-    image: "../../public/images/House1.jpg",
+    image: "../../images/House1.jpg",
     street: "123 Main St",
     bedrooms: 5,
     bathrooms: 5.5,
@@ -14,7 +14,7 @@ const properties = [
   },
   {
     id: 2,
-    image: "../../public/images/House2.jpg",
+    image: "../../images/House2.jpg",
     street: "456 Elm St",
     bedrooms: 4,
     bathrooms: 3,
@@ -23,7 +23,7 @@ const properties = [
   },
   {
     id: 3,
-    image: "../../public/images/House3.jpg",
+    image: "../../images/House3.jpg",
     street: "789 Oak St",
     bedrooms: 3,
     bathrooms: 3,
@@ -32,7 +32,7 @@ const properties = [
   },
   {
     id: 4,
-    image: "../../public/images/House4.jpg",
+    image: "../../images/House4.jpg",
     street: "101 Pine St",
     bedrooms: 4,
     bathrooms: 4,
@@ -41,7 +41,7 @@ const properties = [
   },
   {
     id: 5,
-    image: "../../public/images/House5.jpg",
+    image: "../../images/House5.jpg",
     street: "202 Maple Ave",
     bedrooms: 4,
     bathrooms: 4.5,
