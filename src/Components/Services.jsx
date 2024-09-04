@@ -73,7 +73,7 @@ const Service = () => {
           </div>
           <div className="w-full lg:w-2/5">
             <img
-              src="../../images/real-estate-agent.jpg"
+              src="../../real-estate-agent.jpg"
               alt="Real Estate Agent"
               className="w-full h-auto rounded-lg shadow-md"
             />
